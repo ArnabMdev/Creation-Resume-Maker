@@ -83,27 +83,16 @@
     <div  >
         
     <div class="container content">
-        <div class="d-flex flex-row">
-            <div class="col d-flex justify-content-center">
-                <img id="img1"  src="images/template1.png" alt="" srcset="" >
-            </div>
-            <div class="col d-flex justify-content-center">
-                <img id="img2" src="images/templates4.png" alt="" srcset="">
-            </div>
-            <div class="col d-flex justify-content-center">
-                <img id = "img3" src="images/template3.png" alt="" srcset="">
-            </div>
-        </div>
-            <form action="">
+      <form action="">
                 <div class="row">
                     <div class="col d-flex justify-content-center radio" >
-                        <input type="radio" name="template" value="template1">
+                        <input id="template1" type="radio" name="template" value="template1">
                     </div>
                     <div class="col d-flex justify-content-center radio">
-                        <input type="radio" name="template" value="template2">
+                        <input id="template2" type="radio" name="template" value="template2">
                     </div>
                     <div class="col d-flex justify-content-center radio">
-                        <input type="radio" name="template" value="template2">
+                        <input id="template3" type="radio" name="template" value="template2">
                     </div>
                 </div>
                 <div class="row">
@@ -112,6 +101,20 @@
                   </div>
                 </div>
             </form>
+            <!-- <label for="template3" class="btn btn-primary" style="margin-top: 10rem;">hi</label> -->
+              <div class="d-flex flex-row">
+                  <div class="col d-flex justify-content-center">
+                      <label for="template1"><img id="img1"  src="images/template1.png" alt="" srcset="" > </label>
+                  </div>
+                  <div class="col d-flex justify-content-center">
+                      <label for="template2"><img id="img2" src="images/templates4.png" alt="" srcset=""> </label>
+                  </div>
+                  <div class="col d-flex justify-content-center">
+                      <label for="template3">
+                        <img id = "img3" src="images/template3.png" alt="" srcset="">
+                      </label>
+                  </div>
+              </div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
