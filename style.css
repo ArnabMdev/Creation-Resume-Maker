@@ -95,14 +95,19 @@ body{
 }
 
 .wrapper{
-    position: fixed;
+    position: absolute;
     top: 55%;
-    left: 18%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
   
   .link_wrapper{
     position: relative;
+  }
+
+  .nav-item{
+    cursor: pointer;
+    
   }
   
   a.fancy{

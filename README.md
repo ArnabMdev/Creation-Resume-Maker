@@ -2,7 +2,7 @@
 An easy to use automated CV and Resume maker. It is a simple HTML, CSS and JS project. 
 
 ## To contribute to this project, follow the steps below:
-- Fork this repository
+- Fork this repository and star it.
 - Clone your forked repository to your local machine
 - Create a new branch
 - Make your changes
