@@ -3,7 +3,7 @@ body{
 }
 
 .verticalStrip {
-    position: fixed;
+    position: absolute;
     top: 4rem;
     left: 0;
     width: 17.75rem;
@@ -40,6 +40,7 @@ img{
 
 #img1, #img2,#img3{
     cursor: pointer;
+    margin: 30px 9px;
 }
 
 .radio{
@@ -52,11 +53,20 @@ input{
 }
 
 .wrapper{
-    position: fixed;
+    position: absolute;
     top: 60%;
-    left: 53%;
+    /* left: 53%; */
+    width:200px;
     transform: translate(-50%, -50%);
   }
+
+
+
+.form1-label-container{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
   
   a.fancy{
     display: block;
