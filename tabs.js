@@ -14,23 +14,6 @@ function openTab(evt, tabname) {
   evt.currentTarget.className += " active";
 }
 
-function openTabpage(evt, tabname) {
-  var tabview = document.getElementsByClassName("containerform");
-  var back = document.getElementsByClassName("backdrop");
-  back[0].style.display = "block";
-  tabview[0].style.display = "block";
-  document.body.style.overflow = "hidden";
-  openTab(evt, tabname);
-}
-
-function closeTabpage(evt) {
-  var tabview = document.getElementsByClassName("containerform");
-  var back = document.getElementsByClassName("backdrop");
-  back[0].style.display = "none";
-  tabview[0].style.display = "none";
-  document.body.style.overflow = "auto";
-}
-
 document.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
     var tabview = document.getElementsByClassName("containerform");
@@ -40,3 +23,18 @@ document.addEventListener("keydown", function (event) {
   }
   document.getElementsByTagName("body").style.background;
 });
+
+function openTabpage(evt, tabname) {
+  var tabview = document.getElementsByClassName("containerform");
+  var back = document.getElementsByClassName("backdrop");
+  back[0].style.display = "block";
+  tabview[0].style.display = "block";
+  openTab(evt, tabname);
+}
+
+function closeTabpage(evt) {
+  var tabview = document.getElementsByClassName("containerform");
+  var back = document.getElementsByClassName("backdrop");
+  back[0].style.display = "none";
+  tabview[0].style.display = "none";
+}
