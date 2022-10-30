@@ -1,116 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ultra&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-    <script src="tabs.js"></script>
-    <title>Creation</title>
-  </head>
-  <body>
-    <div class="blurfilter">
-      <!-- navbar -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-light"
-        style="overflow: hidden;padding: 0;"
-      >
-        <div class="container-fluid" style="background-color: white; padding: 0;">
-          <a
-            class="navbar-brand"
-            href="#"
-            style="
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="tabs.js"></script>
+  <title>Creation</title>
+</head>
+
+<body>
+  <div class="blurfilter">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="overflow: hidden;padding: 0;">
+      <div class="container-fluid" style="background-color: white; padding: 0;">
+        <a class="navbar-brand" href="#" style="
             font-family: 'Lobster', cursive;
             font-size: 2.5rem;
             padding-left: 3rem;
             width: 40%;
 
             background-color: #6ad5ef;
-          "
-            >creation</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a
-                  class=" btnsgnIn"
-                  aria-current="page"
-                  onclick="openTabpage(event,'SignIn')"
-                >
-                  Sign In
+          ">creation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class=" btnsgnIn" aria-current="page" onclick="openTabpage(event,'SignIn')">
+                Sign In
               </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="btnsgnUp"
-                  aria-current="page"
-                  onclick="openTabpage(event,'SignUp')"
-                >
-                  Sign Up
+            </li>
+            <li class="nav-item">
+              <a class="btnsgnUp" aria-current="page" onclick="openTabpage(event,'SignUp')">
+                Sign Up
               </a>
-              </li>
-            </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container ">
+      <div class="row topofpage">
+        <div class="col verticalStrip">
+          <h1 class="headline">Create Your Perfect Resume With CREATION</h1>
+          <div class="wrapper">
+            <div class="link_wrapper">
+              <a class="fancy" href="Form1.html">Generate Resume </a>
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                  <path
+                    d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z" />
+                </svg>
+              </div>
+            </div>
+
           </div>
         </div>
-      </nav>
-      
-      <div class="container ">
-        <div class="row topofpage">
-          <div class="col verticalStrip">
-            <h1 class="headline">Create Your Perfect Resume With CREATION</h1>
-            <div class="wrapper">
-              <div class="link_wrapper">
-                <a class="fancy" href="Form1.html">Generate Resume </a>
-                <div class="icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
-                    <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
-                  </svg>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-          <div class="col " style="position: relative;">
-            <img class="img1" src="Images/template1.png" alt="" srcset="" />
-            <img class="img2" src="Images/template3.png" alt="" srcset="" />
-            <img class="img3" src="Images/templates4.png" alt="" srcset="" />
-          </div>
+        <div class="col " style="position: relative;">
+          <img class="img1" src="Images/template1.png" alt="" srcset="" />
+          <img class="img2" src="Images/template3.png" alt="" srcset="" />
+          <img class="img3" src="Images/templates4.png" alt="" srcset="" />
         </div>
       </div>
     </div>
+  </div>
+  <div class="backdrop">
     <div class="containerform">
+      <div class="close-button" onclick="closeTabpage(event)">x</div>
       <div class="tab">
         <button class="tablinks" onclick="openTab(event,'SignIn')">
           Sign In
@@ -155,11 +127,11 @@
         </form>
       </div>
     </div>
+  </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
